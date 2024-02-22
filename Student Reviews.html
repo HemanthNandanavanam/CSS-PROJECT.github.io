@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Reviews | The Tap Academy</title>
+    <link rel="icon" href="tap.png">
+    <style>
+         *{
+            font-family: Arial, Helvetica, sans-serif
+        }
+        .nav1{
+            margin-top: -7px;
+            margin-left: -7px;
+            margin-right: -7px;
+            padding: 10px;
+            font-size: large;
+            background-color: #EBF3E8;
+        }
+        #ph{
+            margin-left: 90px;
+            padding: -50px;
+        }
+        #mail{
+            margin-left: 770px;
+        }
+
+        .nav1 a{
+
+            margin-left: 30px;
+        }
+        #p{
+            position: absolute;
+            top: 16px;
+            left: 130px;
+        }
+        #p1{
+            position: absolute;
+            top: 13px;
+            left: 925px;
+        }
+        .img{
+            position: absolute;
+            left: 1125px;
+            top: 13px;
+        }
+        .img1{
+            position: absolute;
+            left: 1175px;
+        }
+        #img2{
+            margin-left: 80px;
+        }
+        #n{
+            position: absolute;
+            top: 90px;
+            left: 330px;
+            font-size: large;
+            text-decoration: none;
+        }
+        #n1{
+            position: absolute;
+            top: 90px;
+            left: 430px;
+            font-size: large;
+            text-decoration: none;
+        }
+        #n2{
+            position: absolute;
+            top: 90px;
+            left: 530px;
+            font-size: large;
+            text-decoration: none;
+        }
+        #n3{
+            position: absolute;
+            top: 90px;
+            left: 710px;
+            font-size: large;
+            text-decoration: none;
+            color: black;
+        }
+        #n4{
+            position: absolute;
+            top: 90px;
+            left: 810px;
+            font-size: large;
+            text-decoration: none;
+        }
+        #n5{
+            position: absolute;
+            top: 90px;
+            left: 940px;
+            font-size: large;
+            text-decoration: none;
+        }
+        a:visited{
+            color: black;
+        }
+        #n6{
+            position: absolute;
+            top: 78px;
+            left: 1100px;
+            font-size: large;
+            text-decoration: none;
+            border: 2px solid;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        #n6:visited{
+            color: black;
+        }
+        #sec1{
+            background-color: #e0dddd;
+            margin-left: -6px;
+            margin-right: -6px;
+        }
+        #p2{
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            color: #072d42;
+        }
+        .ii{
+            color: #bb8104f0;
+        }
+        #pre1{
+            font-size: 20px;
+            color: rgb(77, 77, 77);
+            margin-left: 170px;
+            margin-top: -18px;
+        }
+        #sec2{
+            border: 2px solid;
+            width: 350px;
+            height: 75px;
+            margin-left: 125px;
+            border-radius: 3px;
+        }
+        #p3{
+            margin-top: -48px;
+            margin-left: 70px;
+        }
+        #img3{
+            margin-top: 18px;
+            margin-left: 20px;
+        }
+        #img4{
+            margin-left:70px ;
+            position: absolute;
+            top: 2425px;
+        }
+        #sec3{
+            border: 2px solid;
+            width: 350px;
+            height: 290px;
+            margin-left: 125px;
+            margin-top: -2px;
+            border-radius: 3px;
+        }
+        #pre2{
+            font-size: 15px;
+        }
+        #sec4{
+            border: 2px solid;
+            width: 350px;
+            height: 75px;
+            margin-left: 500px;
+            border-radius: 3px;
+            margin-top: -372px;
+        }
+        #p4{
+            margin-left: 70px;
+        }
+        #img4{
+            margin-top: -1985px;
+            margin-left: 70px;
+        }
+        #img5{
+            margin-left:20px ;
+            position: absolute;
+            top: 430px;
+        }
+        #sec5{
+            border: 2px solid;
+            width: 350px;
+            height: 290px;
+            margin-left: 500px;
+            margin-top: -2px;
+            border-radius: 3px;
+        }
+        #pre3{
+            margin-left: -20px;
+            font-size: 15px;
+        }
+        #sec6{
+            border: 2px solid;
+            width: 350px;
+            height: 75px;
+            margin-left: 875px;
+            border-radius: 3px;
+            margin-top: -372px;
+        }
+        #img7{
+            margin-left:20px ;
+            position: absolute;
+            top: 425px;
+        }
+        #p5{
+            margin-left: 70px;
+        }
+        #sec7{
+            border: 2px solid;
+            width: 350px;
+            height: 290px;
+            margin-left: 875px;
+            margin-top: -2px;
+            border-radius: 3px;
+        }
+        #pre4{
+            margin-left: -20px;
+            font-size: 15px;
+        }
+        #sec8{
+            border: 2px solid;
+            width: 350px;
+            height: 75px;
+            border-radius: 3px;
+            margin-top: 75px;
+            margin-left: 125px;
+        }
+        #p6{
+            margin-top: -60px;
+            margin-left: 70px;
+        }
+        #img9{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        #sec9{
+            border: 2px solid;
+            width: 350px;
+            height: 290px;
+            margin-left: 125px;
+            margin-top: -2px;
+            border-radius: 3px;
+        }
+        #pre5{
+            font-size: 15px;
+            margin-left: -20px;
+        }
+        #sec10{
+            border: 2px solid;
+            width: 350px;
+            height: 75px;
+            margin-left: 500px;
+            border-radius: 3px;
+            margin-top: -372px;
+        }
+        #sec11{
+            border: 2px solid;
+            width: 350px;
+            height: 290px;
+            margin-left: 500px;
+            margin-top: -2px;
+            border-radius: 3px;
+        }
+        #img11{
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        #p7{
+            margin-top: -50px;
+            margin-left: 60px;
+        }
+        #pre6{
+            margin-left: -20px;
+            font-size: 15px;
+        }
+        #sec12{
+            border: 2px solid;
+            width: 350px;
+            height: 75px;
+            margin-left: 875px;
+            border-radius: 3px;
+            margin-top: -372px;
+        }
+        #sec13{
+            border: 2px solid;
+            width: 350px;
+            height: 290px;
+            margin-left: 875px;
+            margin-top: -2px;
+            border-radius: 3px;
+        }
+        p{
+            font-weight: bold;
+            font-size: 15px;
+        }
+        #p8{
+            margin-top: -70px;
+            margin-left: 60px;
+        }
+        #img13{
+            margin-left: 8px;
+            margin-top: 20px;
+        }
+        #pre7{
+            font-size: 15px;
+            margin-left: -20px;
+        }
+        #sec14{
+            background-color: #002a4f;
+            margin-left: -6px;
+            margin-right: -6px;
+            height: 75px;
+            margin-top: -20px;
+        }
+        #pre8{
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        #a4{
+            border: 2px solid  rgba(63, 221, 63, 0.81);
+            text-decoration: none;
+            margin-left: 270px;
+            margin-top: -50px;
+            background-color: rgba(63, 221, 63, 0.81);
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+        }
+        #sec20{
+            border: 2px solid #4f504f;
+            margin-left: -8px;
+            margin-right: -8px;
+            background-color: #4f504f;
+        }
+        #pre30{
+            margin-left: 200px;
+        }
+        #p30{
+            font-size: 33px;
+            font-weight: bold;
+            color: white;
+        }
+        #p31{
+            color: white;
+            font-size: 15px;
+            margin-top: -40px;
+        }
+        #p32{
+            font-size: 20px;
+            color: white;
+        }
+        #img20{
+            margin-left: -60px;
+            margin-top: -100px;
+        }
+        .p33{
+            font-size: 17px;
+            margin-top: -25px;
+            margin-left: 30px;
+            color: white;
+        }
+        #sec22{
+            height: 400px;
+            width: 200px;
+            margin-left: 500px;
+            margin-top: -380px;
+        }
+        #p34{
+            font-size: 25px;
+            color: white;
+            margin-top: -95px;
+            margin-left: 30px;
+        }
+        #p35{
+            margin-top: -30px;
+            margin-left: 55px;
+        }
+        #p36{
+            margin-top: -60px;
+            margin-left: 55px;
+        }
+        #p37{
+            margin-top: -60px;
+            margin-left: 55px;  
+        }
+        #p38{
+            margin-top: -50px;
+            margin-left: 55px;
+        }
+        #p39{
+            margin-top: -37px;
+            margin-left: 56px;
+        }
+        #p40{
+            margin-top: -30px;
+            margin-left: 56px;
+        }
+        #p41{
+            margin-top: -33px;
+            margin-left: 55px;
+        }.pp35{
+            color: white;
+            font-size: 18px;
+        }
+        #sec23{
+            height: 370px;
+            width: 200px;
+            margin-left: 800px;
+            margin-top: -402px;
+        }
+        #p42{
+            color: white;
+            font-size: 25px;
+            margin-top: -108px;
+        }
+        #p43{
+            margin-top: -40px;
+        }
+        #p44{
+            margin-top: -40px;
+        }
+        #p45{
+            margin-top: -40px;
+        }
+        .pp35:hover{
+            color: rgb(15, 221, 15);
+        }
+        .p33:hover{
+            color: rgb(15, 221, 15);
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="nav1">  
+
+        <img id="ph" src="phone.png" alt="" height="18px" width="18px" > <span id="p">08069878321</span>
+        <img src="mail.png" alt="" height="25px" width="30px" id="mail"> <span id="p1">hello@thetapacademy.com</span>
+        <span  class="img"><a href="https://www.youtube.com/@TAPACADEMY"><img src="youtube.png" alt="" height="20px" width="30px" ></a></span>
+        <span  class="img1"><a href="https://www.instagram.com/tapacademy.online/"><img src="insta.png" alt="" height="22px" width="22px"></a></span>
+    
+    </div>
+    
+        <div class="nav2">
+             <br>
+                <img id="img2" src="top.png" alt="" height="55px" width="120px"> 
+                
+                <a id="n" class="l"  href="http://127.0.0.1:5500/CSS/CSS%20Project/Home_Page.html"> Home </a>  
+                 
+                 <a id="n1" href="http://127.0.0.1:5500/CSS/CSS%20Project/Course.html"> Course </a>
+                
+                <a id="n2" href="http://127.0.0.1:5500/CSS/CSS%20Project/Student%20Reviews.html">Student Reviews</a>
+                 
+                <a id="n3" href="http://127.0.0.1:5500/CSS/CSS%20Project/Blogs.html">Blogs</a>
+                  
+                <a id="n4" href="http://127.0.0.1:5500/CSS/CSS%20Project/Placements.html">Placements</a>
+                
+                <a id="n5" href="http://127.0.0.1:5500/CSS/CSS%20Project/Contact%20us.html">Contact Us</a></sup></sup>
+                
+                 <a id="n6"  href="http://127.0.0.1:5500/CSS/CSS%20Project/form.html">Try for Free</a>
+                <br><br>
+        </div>
+
+
+<div id="sec1">
+    <br><br><br>
+    <p id="p2">Tap Academy Students <i class="ii">Review</i></p>
+    <pre id="pre1">Our complete online training has made students learn to code anytime anywhere & got placed in various companies.
+                                            Here are our few students placed at various companies :
+    </pre>
+
+    <div id="sec2">
+        <img src="c.jpeg" alt="" height="40px" width="40px" id="img3">
+        <p id="p3">Chiranjeevi Naidu Mandapalli <br><br> Anurag Engineering College</p>
+        <img src="4.5 stars.png" alt="" height="15px" width="75px" id="img4">
+    </div>
+
+    <div id="sec3">
+    <pre id="pre2">
+        Hii this is Chiranjeevi from Tap Academy, I am 
+        an Electrical student. I have joined in this Tap
+        Academy in Juy month.Wnen I joined actually I
+        don't know much about programming, it was 
+        really hard time in my first month but after that
+        a gradual increase in my programming
+        knowlegde I have seen inside me. I tried 
+        constantly to gain knowledge and all the faculty 
+        in the Tap Academy provided us best 
+        knowledge majorly in java Rohit sir and Megha 
+        mam. Now i'm very happy that my 
+        programming background is good. The way of 
+        teaching and knowledge gave by Rohit sir I 
+        could not forget in my life time, tq Rohit Sir and 
+        Megha mam.
+    </pre>
+    </div>
+
+    <div id="sec4">
+        <img id="img5" src="k.png" alt="" height="40px" width="40px">
+        <p id="p4">
+            Kushal Kumar <br>
+            <img src="4.5 stars.png" alt="" height="15px" width="75px" id="img6"><br>
+            SJC Institute of technology
+        </p>
+    </div>
+    <div id="sec5">
+        <pre id="pre3">
+            Hi I'm kushal I,m pursuing my engineering in 
+            information science stream few months ago me 
+            and my friend thought of learning a technical 
+            skill and  we attended the demo workshop of 
+            tapacademy which was a great experience 
+            learning a new skill in augmented reality and the 
+            grate instructor who give the foundation of the 
+            skill Rohit sir and after learning the complete 
+            skills I gained 5 star badge in hackerrank 
+            platform and also I cleared 2 companies 
+            interview thou I'm still in 4th year I suggest you 
+            my friends to enroll in the tapacademy
+        </pre>
+    </div>
+    
+    <div id="sec6">
+        <img id="img7" src="j.png" alt="" height="40px" width="40px">
+        <p id="p5">Jeevan <br> 
+            <img src="4.5 stars.png" alt="" height="15px" width="75px" id="img8">
+            <br> Tap Academy Student
+        </p>
+    </div>
+    <div id="sec7">
+        <pre id="pre4">
+            I think Tap Academy is doing great using latest 
+            technologies... Someting i really appreciate 
+            about Tap Academy is the way of teaching  
+            using Animations.. With your guidance i have 
+            developed confidence & skil set in java.. One of 
+            the things i admire about TAP Academy is giving 
+            Quality Education at affordable Price..
+        </pre>
+    </div>
+
+    <div id="sec8">
+        <img src="m.jpeg" alt="" height="40px" width="40px" id="img9">
+        <p id="p6">Mullaikani <br>
+            <img src="4.5 stars.png" alt="" height="15px" width="75px" id="img10"> <br>
+            Impact college of engineering <br> and applied science 
+        </p>
+    </div>
+    <div id="sec9">
+        <pre id="pre5">
+            Tap-Academy is the best e-learning platform
+            The concepts are taught very clearly and if 
+            we are faced with any doubts they make 
+            sure that, they clear the diubts. Tap 
+            Academy teaches using augmented reaity,
+            which makes it is easier to grasp and 
+            understand the concepts clearly. Friendly 
+            environment and the mentors are easy to 
+            communicate. 
+        </pre>
+    </div>
+
+    <div id="sec10">
+        <img src="e.jpeg" alt="" width="50px" height="40px" id="img11"> 
+        <p id="p7">Ekta Girdhar <br>
+            <img src="4.5 stars.png" alt="" height="15px" width="75px" id="img12"> <br>
+            R.K.S.D college
+        </p>
+    </div>
+    <div id="sec11">
+        <pre id="pre6">
+            Getting Enrolled in tap academy is one my 
+            best decision. Clear understanding of basics 
+            from lms, consistent practice with live class, 
+            daiy assignment gives boost, 24hrs doubt 
+            solving assistance from mentor, mock test 
+            every Friday and Saturday helps in self 
+            evaluation. For me till now it's been a great 
+            journey and daily I am learning something 
+            new and improving myself. I have no more 
+            fear of not getting job because after 2 
+            months with tap academy I am getting 
+            vatious offers
+        </pre>
+    </div>
+
+    <div id="sec12">
+        <img src="a.jpeg" alt="" width="50px" height="50px" id="img13">
+        <p id="p8">Ayush srivastava <br>
+            <img src="4.5 stars.png" alt="" height="15px" width="75px" id="img14"> <br>
+            LAXMI DEVI INSTITUTE OF ENGG. AND <br> TECHNOLOGY
+        </p>
+    </div>
+    <div id="sec13">
+        <pre id="pre7">
+            I joined the Java Full Stack Developer course 
+            in Tap Academy. The trainers are very good 
+            and supportive. They help me to clatify my all 
+            doubt. I have learned Java,SQL,HTML,Css and 
+            other languages. Each and every concept 
+            that is present in LMS is from Scratch that 
+            builds a good foundation to clarify upcoming 
+            advance topics. Thank you Tap Academy.
+        </pre>
+    </div>
+    <br><br>
+</div>
+<br><br>
+<div id="sec14">
+    <pre id="pre8">
+        <br>                                      Join Full Stack Development Free Workshop <a id="a4" href="http://127.0.0.1:5500/CSS/CSS%20Project/form.html">> REGISTER NOW</a> <br><br>  </pre>
+</div>
+
+
+        <div id="sec20">
+            <div id="sec21">
+                <pre id="pre30">
+                <p id="p30">Tap Academy</p>
+                <p id="p31">An Onine Skiling Organization</p>
+                <p id="p32">Locations</p>
+                <img id="img20" src="location.png" alt="" height="23px" width="23px"><p class="p33">BTM</p>
+                <img id="img20" src="location.png" alt="" height="23px" width="23px"><p class="p33">Rajajinagar</p>
+                <img id="img20" src="bottom_phone.png" alt="" height="20px" width="18px"><p class="p33">08069878321</p>
+               <img id="img20" src="mail.png" alt="" height="20px" width="27px"><p class="p33">hello@thetapacademy.com</p>
+                </pre>
+            </div>
+        
+            <div id="sec22">
+                <pre id="pre31">
+                    <p id="p34">Useful Links</p>
+                   <p class="pp35" id="p35">Home <br> </p>
+                   <p class="pp35" id="p36">Course <br> </p>
+                   <p class="pp35" id="p37">Student <br></p>
+                   <p class="pp35" id="p38">Reviews <br></p>
+                   <p class="pp35" id="p39">Blogs <br></p>
+                   <p class="pp35" id="p40">Placements <br></p>
+                   <p class="pp35" id="p41">Contact Us</p>
+                </pre>
+            </div>
+        
+            <div id="sec23">
+                <pre id="pre32">
+                    <p id="p42">Policies</p>
+                    <p class="pp35" id="p43">Privacy Policy</p>
+                    <p class="pp35" id="p44">Terms & Conditions</p>
+                    <p class="pp35" id="p45">Refunds / Cancellations</p>
+                </pre>
+            </div>
+            
+            </div>
+</body>
+</html>
